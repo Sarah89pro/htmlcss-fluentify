@@ -1,0 +1,142 @@
+/*GENERAL*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #8b8b8b;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 500;
+}
+
+/*UTILITY*/
+
+/*LAYOUT*/
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content:"";
+    display: block;
+    clear: both;
+}
+
+.float-left {
+    float: left;
+}
+
+.w-50 {
+width: 50%; /*per dividere il contenitore in 50 e 50*/
+}
+
+/*MENU*/
+.menu-inline li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+}
+
+/*BUTTONS*/
+.btn {
+    display: inline-block;
+    min-width: 100px;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.btn.btn-green {
+    background-color: #7cbb01;
+    border: 1px solid transparent; 
+}
+
+.btn.btn-big {
+    padding: 20px;
+}
+
+/*MAIN HEADER*/
+.main-header {
+    line-height: 80px;
+    text-transform: uppercase;
+    font-size: 12px;
+    background: #0d325a;
+}
+
+.main-header .logo {
+    width: 15%;
+}
+
+.main-header .logo img {
+    vertical-align: middle;
+
+}
+
+.main-header .nav-center {
+    width: 45%;  
+} 
+
+.main-header .nav-right {
+    width: 40%;
+    text-align: right;
+}
+
+.main-header a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-header a:not(.btn):hover {
+    color: rgb(199, 192, 192);
+}
+
+.main-header a.btn {
+    line-height: 12px;
+}
+
+/*MAIN*/
+
+/*HERO-IMG*/
+.hero-img {
+    height: 480px;
+    background-color: #0d325a;
+    background-image: url("./img/background-header.png");
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: 110% 100%/*right bottom*/;
+
+}
+
+.hero-img .container {
+    position: relative;
+    height: 100%;
+
+}
+
+.hero-img .hero-text {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0 -50%);
+}
+
+.hero-img .hero-text h1 {
+    margin-bottom: 20px;
+    font-size: 48px;
+    color:white;
+
+}
