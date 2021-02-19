@@ -109,7 +109,6 @@ width: 50%; /*per dividere il contenitore in 50 e 50*/
 }
 
 /*MAIN*/
-
 /*HERO-IMG*/
 .hero-img {
     height: 480px;
@@ -118,7 +117,6 @@ width: 50%; /*per dividere il contenitore in 50 e 50*/
     background-size: 1000px;
     background-repeat: no-repeat;
     background-position: 110% 100%/*right bottom*/;
-
 }
 
 .hero-img .container {
@@ -156,4 +154,95 @@ width: 50%; /*per dividere il contenitore in 50 e 50*/
 .claim h2 {
     margin-bottom: 10px;
     color: black; 
+}
+
+/*TRAINING METHOD*/
+.training-m {
+    height:280px;
+    text-align: center;
+
+}
+.training-m section {
+    float:left;
+    width: calc(100% / 3);
+    margin-top: 20px;
+}
+
+.training-m img {
+    max-height: 150px;
+}
+
+.training-m h3 {
+    font-size: 23px;
+    color:#7cbb01;
+}
+
+.training-m section hr {
+    display: inline-block;
+    border-color: #e0dcdc;
+    width: 20%;
+    margin: 20px 0;
+}
+
+.training-m p {
+    font-size: 15px;
+}
+
+
+/*PLACEMENT TEST*/
+.test {
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.test-img img {
+    width: 100%;
+}
+
+.test-text {
+    padding: 0 40px;
+}
+
+.test-text h2 {
+    color: black;
+}
+
+.test-text p {
+    margin: 20px auto;
+    color: #7e7c7c;
+}
+
+.test-text a {
+    color: dodgerblue;
+}
+
+
+/*FOOTER*/
+footer {
+    background-color: #e0dcdc;
+    line-height: 150px; 
+}
+
+.footer-left h2 {
+    text-align: left;
+    color: black;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+.footer-right selection {
+    color: #807e7e;
+}
+
+footer a.btn {
+    line-height: 1;
+}
+
+#help {
+    position: fixed;
+    bottom: 0;
+    right: 5%;
+    border-radius: 5px;
 }
